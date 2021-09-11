@@ -1,5 +1,7 @@
 document.addEventListener("keypress", evt => {
-    const boundKeyCodes = ["KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ"];
+    const boundKeyCodes = ["KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ",
+        "KeyW", "KeyE", "KeyT", "KeyY", "KeyU"];
+
 
     boundKeyCodes.includes(evt.code);
     if (boundKeyCodes.includes(evt.code)) {
